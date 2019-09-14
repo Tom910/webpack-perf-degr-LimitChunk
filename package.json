@@ -1,0 +1,21 @@
+{
+  "name": "webpack-perf-degr-LimitChunk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --progress --profile --watch"
+  },
+  "keywords": [],
+  "author": "a.marchenko <a.marchenko@tinkoff.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
